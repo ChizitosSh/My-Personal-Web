@@ -23,15 +23,15 @@
     <title>Mi página personal</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg p-0">
+    <nav class="navbar navbar-expand-lg p-0" id="navbar">
         <section class="container-fluid">
             <a class="navbar-brand ms-5" href="index.html"><i class="fa-solid fa-cloud fa-3x mx-3"></i>Personal</a>
             <button class="navbar-toggler navbar-dark me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <section class="collapse navbar-collapse" id="navbarNav">
+            <section class="collapse navbar-collapse mx-5" id="navbarNav">
                 <section class="ms-auto">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav scroll-top">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Presentación</a>
                         </li>
@@ -55,7 +55,7 @@
     <header>
         <section class="container text-center p-0">
             <section class="row">
-                <section class="col-sm-12 col-md-7">
+                <section class="col-sm-12 col-md-7 ">
                     <h6>POR: SHIRLEY AZURIN SOTELO</h6>
                     <h1>MI PÁGINA PERSONAL</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ea culpa delectus repellendus, nulla itaque placeat sint ipsum aperiam eius?</p>
@@ -63,7 +63,7 @@
                         <button class="btn btn_light px-5 py-2">Presentación</button>
                     </form>
                 </section>
-                <section class="col-sm-12 col-md-5 h-25">
+                <section class="col-sm-12 col-md-5 h-25 scroll-right">
                     <img src="img/clouds.png" alt="Books">
                 </section>
             </section>
@@ -74,13 +74,13 @@
             <section class="container text-center">
                 <section class="row" id="presentacion">
                     <section class="col-lg-6 d-none d-lg-block">
-                        <section class="pray">
+                        <section class="pray scroll-left">
                             <img class="rounded-4" src="img/chica.png" alt="Pray">
                         </section>
                     </section>
                     <section class="col-lg-6">
-                        <section class="panel text-left rounded-4">
-                            <section class="pray d-lg-none">
+                        <section class="panel text-left rounded-4 scroll-right">
+                            <section class="pray d-lg-none scroll-left">
                                 <img class="rounded-4" src="img/chica.png" alt="Pray">
                             </section>
                             <h1>Shirley Azurin Sotelo</h1>
@@ -116,5 +116,10 @@
             </section>
         </section>
     </footer>
+    
 </body>
+<!--Permite que los elementos aparezcan suavemente-->
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<!--Script que activa la animación-->
+<script src="js/main.js"></script>
 </html>

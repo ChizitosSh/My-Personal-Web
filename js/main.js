@@ -1,7 +1,5 @@
 // Scroll Reveal
 
-const navbar = document.getElementById('navbar');
-
 const scroll = ScrollReveal ({
     origin: 'top',
     distance: '50px',

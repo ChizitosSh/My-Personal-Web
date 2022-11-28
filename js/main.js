@@ -10,7 +10,7 @@ const scroll = ScrollReveal ({
     reset: true, // para que se vuelva a ejecutar la animación
 })
 
-scroll.reveal(`.navbar-brand, .navbar-toggle, .col-sm-12, .scroll-top`)
+scroll.reveal(`.navbar-brand, .navbar-toggle, navbar-nav,.col-sm-12, .scroll-top`)
 
 scroll.reveal(`.scroll-right`, {origin: 'right'})
 

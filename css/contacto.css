@@ -1,0 +1,86 @@
+.form {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+.form .title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text {
+    height: 36px;
+}
+
+.contact-form .input-text,
+textarea {
+    display: block;
+    width: 100%;
+    border-width: 0 0 2px 0;
+    border-color: #ff512f;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+textarea {
+    resize: none;
+}
+
+.contact-form .input-text:focus,
+textarea:focus {
+    outline: none;
+    color: gray;
+}
+
+.contact-form label {
+    line-height: 26px;
+    font-weight: 400;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.contact-form button {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.form-field span {
+	color: #e74c3c;
+    left: 0;
+}
+
+/*  Nav bar */
+
+nav .nav-item [href="contacto.html"] {
+    background-color: #ff522f84;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+/* Responsive Nav bar */
+
+@media (max-width: 992px) {
+    nav .nav-item [href="contacto.html"] {
+        background-color: #ff522f84;
+        border-radius: 0;
+        font-weight: 600;
+    }
+}

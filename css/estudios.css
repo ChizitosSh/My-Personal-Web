@@ -1,0 +1,66 @@
+/* Navbar */
+nav .nav-item [href="estudios.html"] {
+    background-color: #ff522f84;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+
+/* Main */
+main .estudios {
+    margin: 4rem 0;
+}
+
+main .estudios .section {
+    padding: 4vmin 0;
+}
+
+main .section .row .col .pray img {
+    opacity: 0.8;
+    width: 100%;
+    margin-left: 0;
+}
+
+main .section .row .col-lg-6:last-child {
+    display: block;
+}
+
+main .section .row .col .panel {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    align-self: center;
+    box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);
+}
+
+main .section .row .col .panel h1 {
+    font-weight: bold;
+    text-align: left;
+    padding: 0.4rem 0;
+    font-size: 2rem;
+}
+
+main .section .row .col .panel p {
+    text-align: left;
+    font-size: 1rem;
+    color: rgba(0,0,0,0.5);
+}
+
+
+
+/* Responsive */
+@media (max-width: 992px) {
+    nav .nav-item [href="estudios.html"] {
+        background-color: #ff522f84;
+        border-radius: 0;
+        font-weight: 600;
+    }
+
+    main .section .row .col .panel {
+        flex-direction: column;
+    }
+
+    main .section .row .col-lg-6:last-child {
+        margin-top: 3rem;
+    }
+}

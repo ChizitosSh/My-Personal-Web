@@ -1,0 +1,177 @@
+* {
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Nav */
+
+nav {
+    background: #dd2476;
+}
+
+nav .container-fluid a {
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+nav .nav-item:last-child {
+    padding-right: 3rem;
+}
+
+nav .nav-item {
+    padding: 0.9em;
+}
+
+nav .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+nav .navbar-brand:hover {
+    color: whitesmoke;
+}
+
+nav .nav-link:hover {
+    color: black;
+}
+
+
+
+/* Header */
+
+header {
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #dd2476, #ff512f);
+    height: 100%;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+header .row .col-md-7 {
+    color: white;
+}
+
+header .row .col-md-5 img {
+    width: 90%;
+}
+
+header .row .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .row .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .row .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+header .row .col-md-7 button {
+    border: solid 2px white;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+header .row .col-md-7 button:hover {
+    color: black;
+    background-color: white;
+    border: solid 2px white;
+}
+
+
+
+/* Main */
+
+main .section {
+    padding: 20vmin 0;
+}
+
+main .section .row .col-lg-6 .pray img {
+    opacity: 0.8;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+main .section .row .col-lg-6:last-child {
+    display: flex;
+    align-items: center;
+}
+
+main .section .row .col-lg-6 .panel {
+    background-color: white;
+    padding: 20%;
+    box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+main .section .row .col-lg-6 .panel h1 {
+    font-weight: bold;
+    text-align: left;
+    padding: 0.4rem 0;
+    font-size: 2rem;
+}
+
+main .section .row .col-lg-6 .panel p {
+    text-align: left;
+    font-size: 1rem;
+    color: rgba(0,0,0,0.5);
+}
+
+
+
+/* Footer */
+
+footer {
+    background: linear-gradient(to bottom, #ff512f, #dd2476);
+    overflow-x: hidden;
+    padding: 10vmin 18vmin;
+}
+
+footer .column {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+footer p span,
+footer .column i {
+    color: black;
+}
+
+footer .column i {
+    cursor: pointer;
+}
+
+footer .column i:hover {
+    color: white;
+    transition: 0.4s;
+    transform: translateY(-5px)
+}
+
+
+/* Responsive */
+
+@media (max-width: 992px) {
+
+    main .section .row .col-lg-6 .pray img {
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+
+    main .section .row .col-lg-6 .panel {
+        padding: 10%;
+    }
+
+}

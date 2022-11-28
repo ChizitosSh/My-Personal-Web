@@ -1,0 +1,21 @@
+.familia {
+    margin: 4rem 0;
+}
+
+/* Nav bar */
+
+nav .nav-item [href="familia.html"] {
+    background-color: #ff522f84;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+/* Responsive Nav bar*/
+
+@media (max-width: 992px) {
+    nav .nav-item [href="familia.html"] {
+        background-color: #ff522f84;
+        border-radius: 0;
+        font-weight: 600;
+    }
+}
